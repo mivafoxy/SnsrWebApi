@@ -9,11 +9,11 @@ public class ObjectValueModel: APIModel {
 
     public var objectId: Int?
 
-    public var objectReceiveTime: DateTime?
+    public var objectReceiveTime: String?
 
     public var objectValue: String?
 
-    public init(objectId: Int? = nil, objectReceiveTime: DateTime? = nil, objectValue: String? = nil) {
+    public init(objectId: Int? = nil, objectReceiveTime: String? = nil, objectValue: String? = nil) {
         self.objectId = objectId
         self.objectReceiveTime = objectReceiveTime
         self.objectValue = objectValue
